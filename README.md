@@ -33,7 +33,7 @@ Clone the repository:
 git clone https://github.com/EleutherAI/ccs.git
 ```
 
-Next, install the package with `python -m pip install -e .` in the root directory. Use `python -m pip install -e .[dev]` if you'd like to contribute to the project (see **Development** section below). This should install all the necessary dependencies.
+Next, install the package with `pip install -e .` in the root directory. Use `pip install -e .[dev]` if you'd like to contribute to the project (see **Development** section below). This should install all the necessary dependencies.
 
 To fit reporters for the HuggingFace model `model` and dataset `dataset`, just run:
 
@@ -108,7 +108,7 @@ We welcome PRs to our libraries. They're an efficient way to include your fixes 
 
 
 #### Before commiting
-1. Use `python -m pip install pre-commit && pre-commit install` in the root folder before your first commit.
+1. Use `pip install pre-commit && pre-commit install` in the root folder before your first commit.
 
 2. Run tests
 
