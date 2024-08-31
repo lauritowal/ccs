@@ -32,7 +32,6 @@ def setup_elicit(
             max_examples=(10, 10),
             # run on all layers, tiny-gpt only has 2 layers
         ),
-        num_gpus=2,
         min_gpu_mem=min_mem,
         net=CcsConfig() if is_ccs else EigenFitterConfig(),
         out_dir=tmp_path,
