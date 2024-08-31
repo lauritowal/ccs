@@ -7,23 +7,24 @@ tags:
   - ai alignment
   - honest AI
 authors:
-  - name: Nora Belrose
-    affiliation: 1 
+  # sorted by num of commits
   - name: Walter Laurito
     corresponding: true
     affiliation: "2, 3"
-  - name: Alex Mallen
-    affiliation: "1, 7"
-  - name: Fabien Roger
-    affiliation: 4
+  - name: Nora Belrose
+  affiliation: 1 
   - name: Kay Kozaronek
     affiliation: 2
+  - name: Fabien Roger
+  affiliation: 4
+  - name: Alex Mallen
+    affiliation: "1, 7"
   - name: Christy Koh
     affiliation: 5
-  - name: Jonathan NG
-    affiliation: 2
   - name: James Chua
     affiliation: 1
+  - name: Jonathan NG
+    affiliation: 2
   - name: Alexander Wan
     affiliation: 5
   - name: Reagan Lee
@@ -34,10 +35,15 @@ authors:
     affiliation: "1, 6"
   - name: Augustas Macijauskas
     affiliation: 8
-  - name: Waree Sethapun
-    affiliation: 9
   - name: Eric Mungai Kinuthia
     affiliation: 1
+  - name: Marius PL
+    affiliation: 10
+  - name: Waree Sethapun
+    affiliation: 9
+  - name: Kaarel Hänni
+    affiliation: 10
+
 affiliations:
  - name: EleutherAI
    index: 1
@@ -57,6 +63,8 @@ affiliations:
    index: 8
  - name: Princeton University
    index: 9
+ - name: Independent
+   index: 10
 date: 11 08 2023
 bibliography: paper.bib
 
