@@ -107,7 +107,7 @@ We welcome PRs to our libraries. They're an efficient way to include your fixes 
 - Open a PR in our repository, using the PR template for efficient review.
 
 
-#### For each commit
+#### Before commiting
 1. Use `python -m pip install pre-commit && pre-commit install` in the root folder before your first commit.
 
 2. Run tests
