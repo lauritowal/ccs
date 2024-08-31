@@ -19,7 +19,7 @@ classification tasks, even though the features are trained without labels.
 
 Our code is based on [PyTorch](http://pytorch.org)
 and [Huggingface Transformers](https://huggingface.co/docs/transformers/index). We test the code on Python 3.10 and
-3.11.
+3.11. An example can be found [here](https://colab.research.google.com/drive/1pzcH55aHVXvfF0967hNixReG--gNT473?usp=sharing).
 
 First, create a virtual environment by using e.g. conda:
 
