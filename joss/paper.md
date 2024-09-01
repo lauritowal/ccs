@@ -12,12 +12,12 @@ authors: # sorted by num of commits
     affiliation: "2, 3"
   - name: Nora Belrose
   affiliation: 1 
+  - name: Alex Mallen
+    affiliation: "1, 7"
   - name: Kay Kozaronek
     affiliation: 2
   - name: Fabien Roger
   affiliation: 4
-  - name: Alex Mallen
-    affiliation: "1, 7"
   - name: Christy Koh
     affiliation: 5
   - name: James Chua
