@@ -2,10 +2,10 @@ from pathlib import Path
 
 import pandas as pd
 
-from elk import Extract
-from elk.evaluation import Eval
-from elk.training import CcsConfig, EigenFitterConfig
-from elk.training.train import Elicit
+from ccs import Extract
+from ccs.evaluation import Eval
+from ccs.training import CcsConfig, EigenFitterConfig
+from ccs.training.train import Elicit
 
 EVAL_EXPECTED_FILES = [
     "cfg.yaml",
@@ -32,7 +32,6 @@ def setup_elicit(
             max_examples=(10, 10),
             # run on all layers, tiny-gpt only has 2 layers
         ),
-        num_gpus=2,
         min_gpu_mem=min_mem,
         net=CcsConfig() if is_ccs else EigenFitterConfig(),
         out_dir=tmp_path,
