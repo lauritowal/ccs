@@ -6,7 +6,7 @@ tags:
   - interpretability
   - ai alignment
   - honest AI
-authors: # sorted by num of commits
+authors:
   - name: Walter Laurito
     corresponding: true
     affiliation: "2, 3"
