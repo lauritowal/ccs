@@ -10,14 +10,16 @@ authors: # sorted by num of commits
   - name: Walter Laurito
     corresponding: true
     affiliation: "2, 3"
+    equal-contrib: true
   - name: Nora Belrose
-  affiliation: 1 
+    affiliation: 1 
+    equal-contrib: true
   - name: Alex Mallen
     affiliation: "1, 7"
   - name: Kay Kozaronek
     affiliation: 2
   - name: Fabien Roger
-  affiliation: 4
+    affiliation: 4
   - name: Christy Koh
     affiliation: 5
   - name: James Chua
@@ -46,9 +48,9 @@ authors: # sorted by num of commits
 affiliations:
  - name: EleutherAI
    index: 1
- - name: NotodAI Research
-   index: 2
  - name: FZI Research Center for Information Technology
+   index: 2
+ - name: Cadenza Labs
    index: 3
  - name: Redwood Research
    index: 4
