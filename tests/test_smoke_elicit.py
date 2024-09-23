@@ -16,7 +16,6 @@ def test_smoke_elicit_run_tiny_gpt2_ccs(tmp_path: Path):
             max_examples=(10, 10),
             # run on all layers, tiny-gpt only has 2 layers
         ),
-        num_gpus=2,
         min_gpu_mem=min_mem,
         net=CcsConfig(),
         out_dir=tmp_path,
@@ -47,7 +46,6 @@ def test_smoke_elicit_run_tiny_gpt2_eigen(tmp_path: Path):
             max_examples=(10, 10),
             # run on all layers, tiny-gpt only has 2 layers
         ),
-        num_gpus=2,
         min_gpu_mem=min_mem,
         net=EigenFitterConfig(),
         out_dir=tmp_path,
