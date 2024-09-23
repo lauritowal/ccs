@@ -6,18 +6,18 @@ tags:
   - interpretability
   - ai alignment
   - honest AI
-authors:
+authors: # ordered by number of commits
   - name: Walter Laurito
     corresponding: true
     affiliation: "2, 3"
   - name: Nora Belrose
-  affiliation: 1 
+    affiliation: 1 
   - name: Alex Mallen
     affiliation: "1, 7"
   - name: Kay Kozaronek
     affiliation: 2
   - name: Fabien Roger
-  affiliation: 4
+    affiliation: 4
   - name: Christy Koh
     affiliation: 5
   - name: James Chua
