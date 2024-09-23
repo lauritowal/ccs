@@ -6,12 +6,14 @@ tags:
   - interpretability
   - ai alignment
   - honest AI
-authors: # ordered by number of commits
+authors: # sorted by num of commits
   - name: Walter Laurito
     corresponding: true
     affiliation: "2, 3"
+    equal-contrib: true
   - name: Nora Belrose
     affiliation: 1 
+    equal-contrib: true
   - name: Alex Mallen
     affiliation: "1, 7"
   - name: Kay Kozaronek
