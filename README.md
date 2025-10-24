@@ -138,6 +138,15 @@ ruff . --fix
 
 Issues serve three main purposes: reporting library problems, requesting new features, and discussing potential changes before creating a Pull Request (PR). If you encounter a problem, first check if an existing Issue addresses it. If so, add your own reproduction information to that Issue instead of creating a new one. This approach prevents duplicate reports and helps maintainers understand the problem's scope. Additionally, adding a reaction (like a thumbs-up) to an existing Issue signals to maintainers that the problem affects multiple users, which can influence prioritization.
 
-### Discussion and Contact
-
-If you have additional questions you ask them in the elk channel of Eleuther's Discord https://discord.gg/zBGx3azzUn 
+# Cite as:
+```
+@article{laurito2025ccs,
+  title={CCS-Lib: A Python package to elicit latent knowledge from LLMs},
+  author={Laurito, Walter and Belrose, Nora and Mallen, Alex and Kozaronek, Kay and Roger, Fabien and Koh, Christy and Chua, James and Ng, Jonathan and Wan, Alexander and Lee, Reagan and others},
+  journal={Journal of Open Source Software},
+  volume={10},
+  number={114},
+  pages={6511},
+  year={2025}
+}
+```
